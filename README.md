@@ -3,6 +3,8 @@
 ### spock-report依赖以下相关groovy包，需如下配置:
 
 ```xml
+<dependencies>
+  ...
 <!--    spock-reports dependencies start -->
     <dependency>
       <groupId>com.athaydes</groupId>
@@ -47,6 +49,8 @@
       <scope>test</scope>
     </dependency>
     <!--    spock-reports dependencies end-->
+  ...
+</dependencies>
 ```
 
 ### spock-report的自定义配置文件
